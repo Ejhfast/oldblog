@@ -25,7 +25,7 @@ I hear a crunching sound behind me, a shuffling. I begin to turn.
 
 “I must _learn_ a gem?”
 
-“This gem is Turing complete[1], and that makes all the difference!”
+“This gem is Turing complete [[1]], and that makes all the difference!”
 
 ***
 
@@ -101,6 +101,6 @@ pre. that evil fellow in my closet is bitten by a rabid dog.
 
 I nod, unconvinced. I feel a bit of sympathy for the fellow who was once in my closet.
 
-“But that’s not the important thing.” Lilu’s bright eyes flare brighter. “You’ve built and run your first Ruby program! I introduced you to _puts_ and _gets_, and you got to play a bit with *variables(). Now, onward. You’re about to become very rich.”
+“But that’s not the important thing.” Lilu’s bright eyes flare brighter. “You’ve built and run your first Ruby program! I introduced you to _puts_ and _gets_, and you got to play a bit with *variables*. Now, onward. You’re about to become very rich.”
 
-fn1. A system of rules the can simulate any other computer. 
+fn1. A system is _Turing complete_ if its rules can simulate any other computer. 

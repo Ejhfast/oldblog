@@ -128,7 +128,7 @@ blockquote {
 
 /* line 63, sass/screen.scss */
 em {
-  font-variant: italic;
+  font-style: italic;
 }
 
 /*****************************************************************************/
