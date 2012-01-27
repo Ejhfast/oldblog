@@ -23,13 +23,13 @@ I hear a crunching sound behind me, a shuffling. I begin to turn.
 
 “No,” says Lilu, and his words cut short my motion. “To look is to bring him into existence. First, you must arm yourself. You must learn Ruby.”
 
-“I must learn a gem?”
+“I must _learn_ a gem?”
 
-“This gem is Turing complete, and that makes all the difference!”
+“This gem is Turing complete[1], and that makes all the difference!”
 
 ***
 
-“You see, Ruby grants you access to a powerful function called puts.” Lilu says. His six-fingered hand rests upon his blue chin. “As its name suggests, puts moves things into various places. It outputs things. And consider the possibilities! You can output this evil man into a place where he can’t do you any harm. You can puts him onto the screen of your computer.” He pauses. “You do have a computer, right?”
+“You see, Ruby grants you access to a powerful function called _puts_.” Lilu says. His six-fingered hand rests upon his blue chin. “As its name suggests, _puts_ moves things into various places. It outputs things. And consider the possibilities! You can output this evil man into a place where he can’t do you any harm. You can _puts_ him onto the screen of your computer.” He pauses. “You do have a computer, right?”
 
 “Of course,” I say. “I have one right here. There’s another–”
 
@@ -56,11 +56,11 @@ puts “that evil fellow in my closet ” + fate
 
 “Why is this more dynamic?” I ask.
 
-“Because we’ve introduced a variable, fate. Think of a variable as a container into which we can place different sorts of values. Here the equal sign assigns the fate variable the string “falls into a river” then adds it to another string “the evil man” and finally prints out the result. In Ruby, applying the plus operator to two strings appends them together.”
+“Because we’ve introduced a *variable*, fate. Think of a variable as a container into which we can place different sorts of values. Here the equal sign assigns the fate variable the string _“falls into a river”_ then adds it to another string _“the evil man”_ and finally prints out the result. In Ruby, applying the plus operator to two strings appends them together.”
 
 “I see. So it’s more dynamic because we are using a variable, even if in this case the variable doesn’t change.”
 
-“Right, now throw him in the water!”
+“Right, now throw him in the water.”
 
 I run the program.
 
@@ -80,7 +80,7 @@ Lilu flashes a feral smile. “Think about it.”
 
 “Oh, I see. Whitespace is also a string, and we want a space between the two variables.”
 
-“Clever.” Lilu winks. “But we can do better. Suppose we are too lazy to think of good punishments ahead of time. We might prefer that our program asks us what the evil man’s fate should be after it starts running. For this we have gets, a function that will read a string from the terminal.”
+“Clever.” Lilu winks. “But we can do better. Suppose we are too lazy to think of good punishments ahead of time. We might prefer that our program asks us what the evil man’s fate should be after it starts running. For this we have _gets_, a function that will read a string from the terminal.”
 
 “Ah, don’t tell me!” I say. “Let me try on my own.”
 
@@ -101,4 +101,6 @@ pre. that evil fellow in my closet is bitten by a rabid dog.
 
 I nod, unconvinced. I feel a bit of sympathy for the fellow who was once in my closet.
 
-“But that’s not the important thing.” Lilu’s bright eyes flare brighter. “You’ve built and run your first Ruby program! I introduced you to puts and gets, and you got to play a bit with variables. Now, onward. You’re about to become very rich.”
+“But that’s not the important thing.” Lilu’s bright eyes flare brighter. “You’ve built and run your first Ruby program! I introduced you to _puts_ and _gets_, and you got to play a bit with *variables(). Now, onward. You’re about to become very rich.”
+
+fn1. A system of rules the can simulate any other computer. 
