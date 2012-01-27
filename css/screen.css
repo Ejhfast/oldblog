@@ -112,30 +112,44 @@ strong {
   font-weight: 800;
 }
 
+/* line 52, sass/screen.scss */
+hr {
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+/* line 58, sass/screen.scss */
+blockquote {
+  color: gray;
+  font-weight: 100;
+  margin: 0px 0px 0px 5px;
+}
+
 /*****************************************************************************/
 /*
 /* Home
 /*
 /*****************************************************************************/
-/* line 58, sass/screen.scss */
+/* line 69, sass/screen.scss */
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
 }
 
-/* line 63, sass/screen.scss */
+/* line 74, sass/screen.scss */
 ul.posts li {
   line-height: 1.75em;
 }
 
-/* line 67, sass/screen.scss */
+/* line 78, sass/screen.scss */
 ul.posts span {
   font-size: 80%;
   color: #999999;
   font-family: 'courier', 'monaco';
 }
 
-/* line 73, sass/screen.scss */
+/* line 84, sass/screen.scss */
 p.posts {
   margin-bottom: 2em;
 }
@@ -145,7 +159,7 @@ p.posts {
 /* Site
 /*
 /*****************************************************************************/
-/* line 83, sass/screen.scss */
+/* line 94, sass/screen.scss */
 .site {
   font-size: 110%;
   width: 35em;
@@ -154,7 +168,7 @@ p.posts {
   line-height: 1.5em;
 }
 
-/* line 91, sass/screen.scss */
+/* line 102, sass/screen.scss */
 .title {
   color: black;
   font-weight: bold;
@@ -163,67 +177,67 @@ p.posts {
   text-align: center;
 }
 
-/* line 98, sass/screen.scss */
+/* line 109, sass/screen.scss */
 .big {
   font-size: 1.5em;
 }
 
-/* line 101, sass/screen.scss */
+/* line 112, sass/screen.scss */
 .about {
   margin-bottom: 2em;
   color: #4d4d4d;
   font-weight: 100;
 }
-/* line 105, sass/screen.scss */
+/* line 116, sass/screen.scss */
 .about a {
   font-weight: 400;
 }
 
-/* line 109, sass/screen.scss */
+/* line 120, sass/screen.scss */
 .site h1 {
   color: #3d3d3d;
 }
 
-/* line 112, sass/screen.scss */
+/* line 123, sass/screen.scss */
 .site ul {
   list-style-position: outside;
 }
 
-/* line 115, sass/screen.scss */
+/* line 126, sass/screen.scss */
 .site li {
   margin: 1px 0px;
 }
 
-/* line 118, sass/screen.scss */
+/* line 129, sass/screen.scss */
 .site .title a {
   color: black;
   text-decoration: none;
 }
 
-/* line 123, sass/screen.scss */
+/* line 134, sass/screen.scss */
 .site .title a:hover {
   color: black;
 }
 
-/* line 127, sass/screen.scss */
+/* line 138, sass/screen.scss */
 .site .title a.extra {
   color: #aaa;
   text-decoration: none;
   margin-left: 1em;
 }
 
-/* line 133, sass/screen.scss */
+/* line 144, sass/screen.scss */
 .site .title a.extra:hover {
   color: black;
 }
 
-/* line 137, sass/screen.scss */
+/* line 148, sass/screen.scss */
 .site .meta {
   color: #aaa;
   font-size: 1em;
 }
 
-/* line 142, sass/screen.scss */
+/* line 153, sass/screen.scss */
 .site .footer {
   font-size: 80%;
   color: #666;
@@ -232,25 +246,25 @@ p.posts {
   font-weight: 100;
 }
 
-/* line 150, sass/screen.scss */
+/* line 161, sass/screen.scss */
 .site .footer .contact {
   float: left;
   margin-right: 3em;
 }
 
-/* line 155, sass/screen.scss */
+/* line 166, sass/screen.scss */
 .site .footer .contact a {
   color: #207785;
 }
 
-/* line 159, sass/screen.scss */
+/* line 170, sass/screen.scss */
 .site .footer .rss {
   margin-top: 1.1em;
   margin-right: -0.2em;
   float: right;
 }
 
-/* line 165, sass/screen.scss */
+/* line 176, sass/screen.scss */
 .site .footer .rss img {
   border: 0;
 }
@@ -260,36 +274,36 @@ p.posts {
 /* Posts
 /*
 /*****************************************************************************/
-/* line 175, sass/screen.scss */
+/* line 186, sass/screen.scss */
 #post {
   width: 100%;
   margin: 0px auto;
 }
-/* line 178, sass/screen.scss */
+/* line 189, sass/screen.scss */
 #post strong {
   font-weight: 800;
 }
 
 /* standard */
-/* line 192, sass/screen.scss */
+/* line 203, sass/screen.scss */
 #post pre {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
 }
 
-/* line 199, sass/screen.scss */
+/* line 210, sass/screen.scss */
 #post ul,
 #post ol {
   margin: 20px 0px;
 }
-/* line 201, sass/screen.scss */
+/* line 212, sass/screen.scss */
 #post ul li,
 #post ol li {
   margin: 10px 0px;
 }
 
-/* line 206, sass/screen.scss */
+/* line 217, sass/screen.scss */
 #post code {
   border: 1px solid #ddd;
   background-color: #eef;
@@ -297,30 +311,25 @@ p.posts {
   padding: 0 .2em;
 }
 
-/* line 213, sass/screen.scss */
+/* line 224, sass/screen.scss */
 #post pre code {
   border: none;
 }
 
 /* terminal */
-/* line 219, sass/screen.scss */
+/* line 230, sass/screen.scss */
 #post pre.terminal {
-  border: 1px solid black;
-  background-color: #333;
-  color: white;
+  border: 1px solid #4d4d4d;
+  background-color: #666666;
+  color: #e6e6e6;
 }
 
-/* line 225, sass/screen.scss */
-#post pre.terminal code {
-  background-color: #333;
-}
-
-/* line 229, sass/screen.scss */
+/* line 239, sass/screen.scss */
 #related {
   margin-top: 2em;
 }
 
-/* line 233, sass/screen.scss */
+/* line 243, sass/screen.scss */
 #related h2 {
   margin-bottom: 1em;
 }
