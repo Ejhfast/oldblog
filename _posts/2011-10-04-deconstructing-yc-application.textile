@@ -21,7 +21,7 @@ p. Don’t be vague in describing your product. Going into detail may seem to le
 
 h3. Please tell us in one or two sentences about the most impressive thing other than this startup that each founder has built or achieved.
 
-It's often said that YC is all about the founders. Our answer:
+It's often said that YC is all about the founders. Our answer: 
 
 bq.. Ethan was admitted to CS PhD programs at Stanford, Berkeley, and MIT for research on automatic software development (e.g. automatically finding bugs, fixing bugs, generating test suites).
 
